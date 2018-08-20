@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5A1C9A728AC2123F28C444 /* Pods_Quattro_PongTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051825686AB46DB32F436D7F /* Pods_Quattro_PongTests.framework */; };
+		311E83648BEFCAAFCCE0ED95 /* Pods_Quattro_PongUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C418F98D8D556DE8F7384D6 /* Pods_Quattro_PongUITests.framework */; };
+		5B6580C21F2ECE5800AD4B86 /* rewardVideoImagepng.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6580C11F2ECE5800AD4B86 /* rewardVideoImagepng.png */; };
+		5B784DE41F2E6C4500976D5D /* topAndBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B784DE21F2E6C4500976D5D /* topAndBottom.png */; };
+		5B784DE51F2E6C4500976D5D /* leftAndRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B784DE31F2E6C4500976D5D /* leftAndRight.png */; };
+		5B784DE71F2E6EE900976D5D /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B784DE61F2E6EE900976D5D /* playButton.png */; };
+		5B784DE91F2EB92D00976D5D /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B784DE81F2EB92D00976D5D /* launchimage.png */; };
+		5BC0664D1F2EC961004D4D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0664C1F2EC961004D4D17 /* GoogleService-Info.plist */; };
+		5BDC7EB81F350DA300A7CF7B /* pongBounceFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC7EB71F350DA300A7CF7B /* pongBounceFinal.mp3 */; };
+		678ECFC47CFA79E92CA2ADFA /* Pods_Quattro_Pong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68356AB49AD4026B0BC4CF6 /* Pods_Quattro_Pong.framework */; };
+		99B08F661F2A185000832294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B08F651F2A185000832294 /* AppDelegate.swift */; };
+		99B08F681F2A185000832294 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99B08F671F2A185000832294 /* GameScene.sks */; };
+		99B08F6A1F2A185000832294 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99B08F691F2A185000832294 /* Actions.sks */; };
+		99B08F6C1F2A185000832294 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B08F6B1F2A185000832294 /* GameScene.swift */; };
+		99B08F6E1F2A185000832294 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B08F6D1F2A185000832294 /* GameViewController.swift */; };
+		99B08F711F2A185000832294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B08F6F1F2A185000832294 /* Main.storyboard */; };
+		99B08F731F2A185000832294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B08F721F2A185000832294 /* Assets.xcassets */; };
+		99B08F761F2A185000832294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B08F741F2A185000832294 /* LaunchScreen.storyboard */; };
+		99B08F811F2A185000832294 /* PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B08F801F2A185000832294 /* PongTests.swift */; };
+		99B08F8C1F2A185000832294 /* PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B08F8B1F2A185000832294 /* PongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99B08F7D1F2A185000832294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B08F5A1F2A185000832294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B08F611F2A185000832294;
+			remoteInfo = Pong;
+		};
+		99B08F881F2A185000832294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B08F5A1F2A185000832294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B08F611F2A185000832294;
+			remoteInfo = Pong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051825686AB46DB32F436D7F /* Pods_Quattro_PongTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quattro_PongTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBE835E23E757B49967F601 /* Pods-Quattro Pong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quattro Pong.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quattro Pong/Pods-Quattro Pong.release.xcconfig"; sourceTree = "<group>"; };
+		44D9563F5BAF387672EFFC25 /* Pods-Quattro PongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quattro PongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quattro PongUITests/Pods-Quattro PongUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C418F98D8D556DE8F7384D6 /* Pods_Quattro_PongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quattro_PongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6580C11F2ECE5800AD4B86 /* rewardVideoImagepng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewardVideoImagepng.png; sourceTree = "<group>"; };
+		5B784DE21F2E6C4500976D5D /* topAndBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottom.png; sourceTree = "<group>"; };
+		5B784DE31F2E6C4500976D5D /* leftAndRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftAndRight.png; sourceTree = "<group>"; };
+		5B784DE61F2E6EE900976D5D /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		5B784DE81F2EB92D00976D5D /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage.png; sourceTree = "<group>"; };
+		5BC0664C1F2EC961004D4D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BDC7EB71F350DA300A7CF7B /* pongBounceFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pongBounceFinal.mp3; sourceTree = "<group>"; };
+		80D4B4CD272F38068E94F976 /* Pods-Quattro PongTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quattro PongTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quattro PongTests/Pods-Quattro PongTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84DFE29C189D6B3B28C2B50F /* Pods-Quattro PongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quattro PongUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quattro PongUITests/Pods-Quattro PongUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99B08F621F2A185000832294 /* Quattro Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quattro Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B08F651F2A185000832294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99B08F671F2A185000832294 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		99B08F691F2A185000832294 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		99B08F6B1F2A185000832294 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		99B08F6D1F2A185000832294 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		99B08F701F2A185000832294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B08F721F2A185000832294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99B08F751F2A185000832294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B08F771F2A185000832294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B08F7C1F2A185000832294 /* Quattro PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quattro PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B08F801F2A185000832294 /* PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongTests.swift; sourceTree = "<group>"; };
+		99B08F821F2A185000832294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B08F871F2A185000832294 /* Quattro PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quattro PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B08F8B1F2A185000832294 /* PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongUITests.swift; sourceTree = "<group>"; };
+		99B08F8D1F2A185000832294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68356AB49AD4026B0BC4CF6 /* Pods_Quattro_Pong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quattro_Pong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A99E2F0E135FA306475CCE /* Pods-Quattro PongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quattro PongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quattro PongTests/Pods-Quattro PongTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD719A2B1B03E0551F82A072 /* Pods-Quattro Pong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quattro Pong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quattro Pong/Pods-Quattro Pong.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B08F5F1F2A185000832294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678ECFC47CFA79E92CA2ADFA /* Pods_Quattro_Pong.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B08F791F2A185000832294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5A1C9A728AC2123F28C444 /* Pods_Quattro_PongTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B08F841F2A185000832294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E83648BEFCAAFCCE0ED95 /* Pods_Quattro_PongUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5AB9344CA96288728B9095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD719A2B1B03E0551F82A072 /* Pods-Quattro Pong.debug.xcconfig */,
+				0DBE835E23E757B49967F601 /* Pods-Quattro Pong.release.xcconfig */,
+				80D4B4CD272F38068E94F976 /* Pods-Quattro PongTests.debug.xcconfig */,
+				B9A99E2F0E135FA306475CCE /* Pods-Quattro PongTests.release.xcconfig */,
+				84DFE29C189D6B3B28C2B50F /* Pods-Quattro PongUITests.debug.xcconfig */,
+				44D9563F5BAF387672EFFC25 /* Pods-Quattro PongUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99B08F591F2A185000832294 = {
+			isa = PBXGroup;
+			children = (
+				99B08F641F2A185000832294 /* Quattro Pong */,
+				99B08F7F1F2A185000832294 /* PongTests */,
+				99B08F8A1F2A185000832294 /* PongUITests */,
+				99B08F631F2A185000832294 /* Products */,
+				7E5AB9344CA96288728B9095 /* Pods */,
+				F1D87ED81FC9DAE8BE00CCD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99B08F631F2A185000832294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B08F621F2A185000832294 /* Quattro Pong.app */,
+				99B08F7C1F2A185000832294 /* Quattro PongTests.xctest */,
+				99B08F871F2A185000832294 /* Quattro PongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B08F641F2A185000832294 /* Quattro Pong */ = {
+			isa = PBXGroup;
+			children = (
+				99B08F651F2A185000832294 /* AppDelegate.swift */,
+				99B08F671F2A185000832294 /* GameScene.sks */,
+				99B08F691F2A185000832294 /* Actions.sks */,
+				99B08F6B1F2A185000832294 /* GameScene.swift */,
+				99B08F6D1F2A185000832294 /* GameViewController.swift */,
+				99B08F6F1F2A185000832294 /* Main.storyboard */,
+				99B08F721F2A185000832294 /* Assets.xcassets */,
+				99B08F741F2A185000832294 /* LaunchScreen.storyboard */,
+				99B08F771F2A185000832294 /* Info.plist */,
+				5BC0664C1F2EC961004D4D17 /* GoogleService-Info.plist */,
+				5B784DE81F2EB92D00976D5D /* launchimage.png */,
+				5B784DE21F2E6C4500976D5D /* topAndBottom.png */,
+				5B784DE31F2E6C4500976D5D /* leftAndRight.png */,
+				5B784DE61F2E6EE900976D5D /* playButton.png */,
+				5B6580C11F2ECE5800AD4B86 /* rewardVideoImagepng.png */,
+				5BDC7EB71F350DA300A7CF7B /* pongBounceFinal.mp3 */,
+			);
+			path = "Quattro Pong";
+			sourceTree = "<group>";
+		};
+		99B08F7F1F2A185000832294 /* PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				99B08F801F2A185000832294 /* PongTests.swift */,
+				99B08F821F2A185000832294 /* Info.plist */,
+			);
+			path = PongTests;
+			sourceTree = "<group>";
+		};
+		99B08F8A1F2A185000832294 /* PongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99B08F8B1F2A185000832294 /* PongUITests.swift */,
+				99B08F8D1F2A185000832294 /* Info.plist */,
+			);
+			path = PongUITests;
+			sourceTree = "<group>";
+		};
+		F1D87ED81FC9DAE8BE00CCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68356AB49AD4026B0BC4CF6 /* Pods_Quattro_Pong.framework */,
+				051825686AB46DB32F436D7F /* Pods_Quattro_PongTests.framework */,
+				4C418F98D8D556DE8F7384D6 /* Pods_Quattro_PongUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B08F611F2A185000832294 /* Quattro Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B08F901F2A185000832294 /* Build configuration list for PBXNativeTarget "Quattro Pong" */;
+			buildPhases = (
+				ED81E2143314E6772701C9F7 /* [CP] Check Pods Manifest.lock */,
+				99B08F5E1F2A185000832294 /* Sources */,
+				99B08F5F1F2A185000832294 /* Frameworks */,
+				99B08F601F2A185000832294 /* Resources */,
+				12B6517F520D3FEEB51735DC /* [CP] Embed Pods Frameworks */,
+				894E87DED02046207272A49F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quattro Pong";
+			productName = Pong;
+			productReference = 99B08F621F2A185000832294 /* Quattro Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99B08F7B1F2A185000832294 /* Quattro PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B08F931F2A185000832294 /* Build configuration list for PBXNativeTarget "Quattro PongTests" */;
+			buildPhases = (
+				AFE56724884ADB72B0F0F11F /* [CP] Check Pods Manifest.lock */,
+				99B08F781F2A185000832294 /* Sources */,
+				99B08F791F2A185000832294 /* Frameworks */,
+				99B08F7A1F2A185000832294 /* Resources */,
+				EBCE65D565455AEAECD67B19 /* [CP] Embed Pods Frameworks */,
+				22D821A6DF424B3B30830C4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B08F7E1F2A185000832294 /* PBXTargetDependency */,
+			);
+			name = "Quattro PongTests";
+			productName = PongTests;
+			productReference = 99B08F7C1F2A185000832294 /* Quattro PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99B08F861F2A185000832294 /* Quattro PongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B08F961F2A185000832294 /* Build configuration list for PBXNativeTarget "Quattro PongUITests" */;
+			buildPhases = (
+				8F22C2F27652FADBF16343F9 /* [CP] Check Pods Manifest.lock */,
+				99B08F831F2A185000832294 /* Sources */,
+				99B08F841F2A185000832294 /* Frameworks */,
+				99B08F851F2A185000832294 /* Resources */,
+				7F32B62024D47C600EE96386 /* [CP] Embed Pods Frameworks */,
+				BCA1DA5187D460F56B523C6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B08F891F2A185000832294 /* PBXTargetDependency */,
+			);
+			name = "Quattro PongUITests";
+			productName = PongUITests;
+			productReference = 99B08F871F2A185000832294 /* Quattro PongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B08F5A1F2A185000832294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Steve Sahayadarlin";
+				TargetAttributes = {
+					99B08F611F2A185000832294 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3AWX5RPRHN;
+						ProvisioningStyle = Automatic;
+					};
+					99B08F7B1F2A185000832294 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B08F611F2A185000832294;
+					};
+					99B08F861F2A185000832294 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B08F611F2A185000832294;
+					};
+				};
+			};
+			buildConfigurationList = 99B08F5D1F2A185000832294 /* Build configuration list for PBXProject "Quattro Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B08F591F2A185000832294;
+			productRefGroup = 99B08F631F2A185000832294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B08F611F2A185000832294 /* Quattro Pong */,
+				99B08F7B1F2A185000832294 /* Quattro PongTests */,
+				99B08F861F2A185000832294 /* Quattro PongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B08F601F2A185000832294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B08F711F2A185000832294 /* Main.storyboard in Resources */,
+				99B08F681F2A185000832294 /* GameScene.sks in Resources */,
+				5B784DE51F2E6C4500976D5D /* leftAndRight.png in Resources */,
+				5B784DE91F2EB92D00976D5D /* launchimage.png in Resources */,
+				5B784DE71F2E6EE900976D5D /* playButton.png in Resources */,
+				5B784DE41F2E6C4500976D5D /* topAndBottom.png in Resources */,
+				99B08F731F2A185000832294 /* Assets.xcassets in Resources */,
+				5BDC7EB81F350DA300A7CF7B /* pongBounceFinal.mp3 in Resources */,
+				5BC0664D1F2EC961004D4D17 /* GoogleService-Info.plist in Resources */,
+				5B6580C21F2ECE5800AD4B86 /* rewardVideoImagepng.png in Resources */,
+				99B08F761F2A185000832294 /* LaunchScreen.storyboard in Resources */,
+				99B08F6A1F2A185000832294 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B08F7A1F2A185000832294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B08F851F2A185000832294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B6517F520D3FEEB51735DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quattro Pong/Pods-Quattro Pong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22D821A6DF424B3B30830C4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quattro PongTests/Pods-Quattro PongTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F32B62024D47C600EE96386 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quattro PongUITests/Pods-Quattro PongUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894E87DED02046207272A49F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quattro Pong/Pods-Quattro Pong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F22C2F27652FADBF16343F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE56724884ADB72B0F0F11F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA1DA5187D460F56B523C6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quattro PongUITests/Pods-Quattro PongUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCE65D565455AEAECD67B19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quattro PongTests/Pods-Quattro PongTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED81E2143314E6772701C9F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B08F5E1F2A185000832294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B08F6C1F2A185000832294 /* GameScene.swift in Sources */,
+				99B08F6E1F2A185000832294 /* GameViewController.swift in Sources */,
+				99B08F661F2A185000832294 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B08F781F2A185000832294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B08F811F2A185000832294 /* PongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B08F831F2A185000832294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B08F8C1F2A185000832294 /* PongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99B08F7E1F2A185000832294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B08F611F2A185000832294 /* Quattro Pong */;
+			targetProxy = 99B08F7D1F2A185000832294 /* PBXContainerItemProxy */;
+		};
+		99B08F891F2A185000832294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B08F611F2A185000832294 /* Quattro Pong */;
+			targetProxy = 99B08F881F2A185000832294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99B08F6F1F2A185000832294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B08F701F2A185000832294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B08F741F2A185000832294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B08F751F2A185000832294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B08F8E1F2A185000832294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99B08F8F1F2A185000832294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B08F911F2A185000832294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD719A2B1B03E0551F82A072 /* Pods-Quattro Pong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AWX5RPRHN;
+				INFOPLIST_FILE = "$(SRCROOT)/Quattro Pong/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.p0ch1.QuattroPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		99B08F921F2A185000832294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBE835E23E757B49967F601 /* Pods-Quattro Pong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AWX5RPRHN;
+				INFOPLIST_FILE = "$(SRCROOT)/Quattro Pong/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.p0ch1.QuattroPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		99B08F941F2A185000832294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D4B4CD272F38068E94F976 /* Pods-Quattro PongTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahayadarlin.PongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quattro Pong.app/Quattro Pong";
+			};
+			name = Debug;
+		};
+		99B08F951F2A185000832294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A99E2F0E135FA306475CCE /* Pods-Quattro PongTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahayadarlin.PongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quattro Pong.app/Quattro Pong";
+			};
+			name = Release;
+		};
+		99B08F971F2A185000832294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DFE29C189D6B3B28C2B50F /* Pods-Quattro PongUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahayadarlin.PongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pong;
+			};
+			name = Debug;
+		};
+		99B08F981F2A185000832294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D9563F5BAF387672EFFC25 /* Pods-Quattro PongUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahayadarlin.PongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B08F5D1F2A185000832294 /* Build configuration list for PBXProject "Quattro Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B08F8E1F2A185000832294 /* Debug */,
+				99B08F8F1F2A185000832294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B08F901F2A185000832294 /* Build configuration list for PBXNativeTarget "Quattro Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B08F911F2A185000832294 /* Debug */,
+				99B08F921F2A185000832294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B08F931F2A185000832294 /* Build configuration list for PBXNativeTarget "Quattro PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B08F941F2A185000832294 /* Debug */,
+				99B08F951F2A185000832294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B08F961F2A185000832294 /* Build configuration list for PBXNativeTarget "Quattro PongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B08F971F2A185000832294 /* Debug */,
+				99B08F981F2A185000832294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B08F5A1F2A185000832294 /* Project object */;
+}

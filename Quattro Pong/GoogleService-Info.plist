@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>257811435633-m0afuj3rk6g4d2k2d9a2aj378h3mq5b5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.257811435633-m0afuj3rk6g4d2k2d9a2aj378h3mq5b5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCVO3wpsgm0C22j6VpHtPmDs3YYPgFfLOU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>257811435633</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.p0ch1.QuattroPong</string>
+	<key>PROJECT_ID</key>
+	<string>quattro-pong</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quattro-pong.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:257811435633:ios:5afcc09f42d74e58</string>
+	<key>DATABASE_URL</key>
+	<string>https://quattro-pong.firebaseio.com</string>
+</dict>
+</plist>

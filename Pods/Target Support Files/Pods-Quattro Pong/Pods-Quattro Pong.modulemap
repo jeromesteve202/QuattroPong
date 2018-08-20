@@ -1,0 +1,6 @@
+framework module Pods_Quattro_Pong {
+  umbrella header "Pods-Quattro Pong-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Quattro_PongUITests {
+  umbrella header "Pods-Quattro PongUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
